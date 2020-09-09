@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https:// purelypeng.github.io</id>
+    <title>Gridea</title>
+    <updated>2020-09-09T09:31:12.563Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https:// purelypeng.github.io"/>
+    <link rel="self" href="https:// purelypeng.github.io/atom.xml"/>
+    <subtitle>温故而知新</subtitle>
+    <logo>https:// purelypeng.github.io/images/avatar.png</logo>
+    <icon>https:// purelypeng.github.io/favicon.ico</icon>
+    <rights>All rights reserved 2020, Gridea</rights>
+    <entry>
+        <title type="html"><![CDATA[设计模式之单例模式]]></title>
+        <id>https:// purelypeng.github.io/post/she-ji-mo-shi-zhi-dan-li-mo-shi/</id>
+        <link href="https:// purelypeng.github.io/post/she-ji-mo-shi-zhi-dan-li-mo-shi/">
+        </link>
+        <updated>2020-09-09T09:03:49.000Z</updated>
+        <content type="html"><![CDATA[<p>在有些系统中，为了节省内存资源、保证数据内容的一致性，对某些类要求只能创建一个实例，这就是所谓的单例模式。</p>
+<h2 id="单例模式的定义与特点">单例模式的定义与特点</h2>
+<p>单例（Singleton）模式的定义：指一个类只有一个实例，且该类能自行创建这个实例的一种模式。例如，Windows 中只能打开一个任务管理器，这样可以避免因打开多个任务管理器窗口而造成内存资源的浪费，或出现各个窗口显示内容的不一致等错误。</p>
+<p>在计算机系统中，还有 Windows 的回收站、操作系统中的文件系统、多线程中的线程池、显卡的驱动程序对象、打印机的后台处理服务、应用程序的日志对象、数据库的连接池、网站的计数器、Web 应用的配置对象、应用程序中的对话框、系统中的缓存等常常被设计成单例。</p>
+<p>单例模式有 3 个特点：</p>
+<ol>
+<li>单例类只有一个实例对象；</li>
+<li>该单例对象必须由单例类自行创建；</li>
+<li>单例类对外提供一个访问该单例的全局访问点；</li>
+</ol>
+<h2 id="单例模式的结构与实现">单例模式的结构与实现</h2>
+<p>单例模式是<a href="http://c.biancheng.net/design_pattern/">设计模式</a>中最简单的模式之一。通常，普通类的构造函数是公有的，外部类可以通过“new 构造函数()”来生成多个实例。但是，如果将类的构造函数设为私有的，外部类就无法调用该构造函数，也就无法生成多个实例。这时该类自身必须定义一个静态私有实例，并向外提供一个静态的公有函数用于创建或获取该静态私有实例。</p>
+<p>下面来分析其基本结构和实现方法。</p>
+<h3 id="1-单例模式的结构">1. 单例模式的结构</h3>
+<p>单例模式的主要角色如下。</p>
+<ul>
+<li>单例类：包含一个实例且能自行创建这个实例的类。</li>
+<li>访问类：使用单例的类。</li>
+</ul>
+<p>其结构如图 1 所示。</p>
+<p><img src="http://c.biancheng.net/uploads/allimg/181113/3-1Q1131K441K2.gif" alt="单例模式的结构图" loading="lazy"><br>
+图1 单例模式的结构图</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Hello Gridea]]></title>
+        <id>https:// purelypeng.github.io/post/hello-gridea/</id>
+        <link href="https:// purelypeng.github.io/post/hello-gridea/">
+        </link>
+        <updated>2018-12-11T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
+✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
+✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
+<!-- more -->
+<p><a href="https://github.com/getgridea/gridea">Github</a><br>
+<a href="https://gridea.dev/">Gridea 主页</a><br>
+<a href="http://fehey.com/">示例网站</a></p>
+<h2 id="特性">特性👇</h2>
+<p>📝  你可以使用最酷的 <strong>Markdown</strong> 语法，进行快速创作</p>
+<p>🌉  你可以给文章配上精美的封面图和在文章任意位置插入图片</p>
+<p>🏷️  你可以对文章进行标签分组</p>
+<p>📋  你可以自定义菜单，甚至可以创建外部链接菜单</p>
+<p>💻  你可以在 <strong>Windows</strong>，<strong>MacOS</strong> 或 <strong>Linux</strong> 设备上使用此客户端</p>
+<p>🌎  你可以使用 <strong>𝖦𝗂𝗍𝗁𝗎𝖻 𝖯𝖺𝗀𝖾𝗌</strong> 或 <strong>Coding Pages</strong> 向世界展示，未来将支持更多平台</p>
+<p>💬  你可以进行简单的配置，接入 <a href="https://github.com/gitalk/gitalk">Gitalk</a> 或 <a href="https://github.com/SukkaW/DisqusJS">DisqusJS</a> 评论系统</p>
+<p>🇬🇧  你可以使用<strong>中文简体</strong>或<strong>英语</strong></p>
+<p>🌁  你可以任意使用应用内默认主题或任意第三方主题，强大的主题自定义能力</p>
+<p>🖥  你可以自定义源文件夹，利用 OneDrive、百度网盘、iCloud、Dropbox 等进行多设备同步</p>
+<p>🌱 当然 <strong>Gridea</strong> 还很年轻，有很多不足，但请相信，它会不停向前 🏃</p>
+<p>未来，它一定会成为你离不开的伙伴</p>
+<p>尽情发挥你的才华吧！</p>
+<p>😘 Enjoy~</p>
+]]></content>
+    </entry>
+</feed>
